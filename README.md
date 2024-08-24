@@ -1,1 +1,18 @@
 # terraform
+
+
+echo "# terraform" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/newbie7ht/terraform.git
+git push -u origin main
+
+
+
+
+terraform init
+terraform plan
+terraform apply
+terraform destroy
